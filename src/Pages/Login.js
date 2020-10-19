@@ -18,9 +18,6 @@ const Login = () => {
     },1500);
   };
 
-  const onFinishFailed = errorInfo => {
-    message.error(errorInfo);
-  };
 
   return (
       <div
